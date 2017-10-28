@@ -16,7 +16,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap-grid": "^3.3.6-beta.1",
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "normalize-css": "normalize.css#^7.0.0"
   }
 }

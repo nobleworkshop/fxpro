@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="28" viewBox="0 0 30 28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #606a70;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="icon-newspaper.svg" class="cls-1" d="M996,4902h1v28h-1v-28Zm-23,0h1v28h-1v-28Zm0,0h24v1H973v-1Zm-6,27h30v1H967v-1Zm0-24h1v25h-1v-25Zm3,0h1v22h-1v-22Zm7,1h16v2H977v-2Zm0,5h4v1h-4v-1Zm0,2h4v1h-4v-1Zm0,2h4v1h-4v-1Zm0,2h4v1h-4v-1Zm0,4h16v1H977v-1Zm0,2h16v1H977v-1Zm0,2h16v1H977v-1Zm11-10h1v3h-1v-3Zm2-1h1v4h-1v-4Zm2-3h1v7h-1v-7Zm-8,5h1v2h-1v-2Zm2-3h1v5h-1v-5Z" transform="translate(-967 -4902)"/>
+</svg>

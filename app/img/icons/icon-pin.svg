@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="30" viewBox="0 0 20 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #606a70;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="icon-pin.svg" class="cls-1" d="M511.922,4915.5H512l-9,15.5-9-15.5h0.079A10,10,0,1,1,511.922,4915.5ZM503,4902a8.989,8.989,0,0,0-7.786,13.5h0.062l7.724,14,7.724-14h0.062A8.989,8.989,0,0,0,503,4902Zm0,14a5,5,0,1,1,5-5A5,5,0,0,1,503,4916Zm0-9a4,4,0,1,0,4,4A4,4,0,0,0,503,4907Z" transform="translate(-493 -4901)"/>
+</svg>

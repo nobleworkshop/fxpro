@@ -2,24 +2,180 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8"/>
-    <title>Главная страница</title>
+    <title></title>
     <meta content="" name="author"/>
     <meta content="" name="description"/>
     <meta content="" name="keywords"/>
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
     <meta content="ie=edge" http-equiv="x-ua-compatible"/><!-- build:vendorCss css/vendor.css -->
-    <link rel="stylesheet" href="/bower/bootstrap-grid/dist/bootstrap-grid.min.css"/><!-- endbuild -->
+    <link rel="stylesheet" href="/bower/normalize-css/normalize.css"/><!-- endbuild -->
 <!-- build:userCss css/user.css -->
     <link rel="stylesheet" href="/css/main.css"/><!-- endbuild -->
-<!--[if lt IE 9]>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;amp;subset=cyrillic-ext"/><!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
   </head>
   <body>
-    <h1>Главная страница</h1><a class="button" href="google.com"> Кнопка 1</a><a class="button" href="rambler.ru"> Кнопка 2</a>
-    <h4>pug</h4>
-    <h1>HAHAHA</h1><!-- build:vendorJs js/vendor.js -->
-    <script src="/bower/jquery/dist/jquery.min.js" defer="defer"></script><!-- endbuild -->
+    <header class="header">
+      <div class="container flex-column flex-align-center d-flex">
+        <div class="logo"></div>
+        <div class="title-1 text-center title-margin">Trade CFDs on Forex <br/>with our lowest ever spreads</div>
+        <div><a class="button in-header" href="#">Start Trading Now</a>
+          <div class="button-description">Trading CFDs involves significant risk of loss
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="numbers-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="numbers-section__title">INSTANT EXECUTION</div>
+            <div class="trader-block">
+              <div class="trader-block__text">
+                <div class="trader-block__header">MetaTrader 4
+                </div>
+                <div class="trader-block__description">Floating spreads from
+                </div>
+              </div>
+              <div class="trader-block__value">0.6
+              </div>
+            </div>
+            <div class="trader-block">
+              <div class="trader-block__text">
+                <div class="trader-block__header">MetaTrader 4
+                </div>
+                <div class="trader-block__description">Fixed spreads from
+                </div>
+              </div>
+              <div class="trader-block__value">1.6
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="numbers-section__title">INSTANT EXECUTION</div>
+            <div class="trader-block">
+              <div class="trader-block__text">
+                <div class="trader-block__header">MetaTrader 4/5
+                </div>
+                <div class="trader-block__description">Floating spreads from
+                </div>
+              </div>
+              <div class="trader-block__value">0.6
+              </div>
+            </div>
+            <div class="trader-block">
+              <div class="trader-block__text">
+                <div class="trader-block__header">cTrader
+                </div>
+                <div class="trader-block__description">Floating spreads from
+                </div>
+              </div>
+              <div class="trader-block__value">0.0*
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-icons">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="icon-text text-center">
+              <div class="icon-text__icon"><img src="img/icons/icon-signals.svg" alt="Receive free trading signals"/></div>
+              <div class="icon-text__title">Receive free trading signals
+              </div>
+              <div class="icon-text__desc">by TRADING CENTRAL
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="icon-text text-center">
+              <div class="icon-text__icon"><img src="img/icons/icon-cfds.svg" alt="CFDs on FOREX"/></div>
+              <div class="icon-text__title">CFDs on FOREX
+              </div>
+              <div class="icon-text__desc">and 5 other asset classes
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="icon-text text-center">
+              <div class="icon-text__icon"><img src="img/icons/icon-protection.svg" alt="Negative Balance Protection"/></div>
+              <div class="icon-text__title">Negative Balance Protection
+              </div>
+              <div class="icon-text__desc">guaranteed*
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="section-icons__notice text-center">*Subject to the FxPro Order Execution Policy.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-apps">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="platform text-center">
+              <div class="platform__icon"><img src="img/icons/icon-mt4.svg" alt="FxPro MetaTrader 4"/></div>
+              <div class="platform__title">FxPro MetaTrader 4
+              </div>
+              <div class="platform__desc">Trade CFDs on six asset classes with fixed or floating spreads.
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="platform text-center">
+              <div class="platform__icon"><img src="img/icons/icon-mt5.svg" alt="FxPro MetaTrader 5"/></div>
+              <div class="platform__title">FxPro MetaTrader 5
+              </div>
+              <div class="platform__desc">Trade CFDs on five asset classes with market execution and floating spreads.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row flex-justify-center text-center">
+          <div><a class="button" href="#">Open Trading Account</a>
+            <div class="button-description">Trading CFDs involves significant risk of loss
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-apps--black">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="platform text-center platform--black">
+              <div class="platform__icon"><img src="img/icons/icon-ct.svg" alt="FxPro cTrader"/></div>
+              <div class="platform__title platform__title--black">FxPro cTrader
+              </div>
+              <div class="platform__desc">Trade the world's markets with tight spreads and full market depth.
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="platform text-center platform--black">
+              <div class="platform__icon"><img src="img/icons/icon-markets.svg" alt="FxPro Markets*"/></div>
+              <div class="platform__title platform__title--black">FxPro Markets*
+              </div>
+              <div class="platform__desc">Trade on a web and mobile platform like no other with market execution and tight spreads.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="section-icons__notice text-center">*Only available to clients of FxPro Financial Services Limited.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body><!-- build:vendorJs js/vendor.js -->
+  <script src="/bower/jquery/dist/jquery.min.js" defer="defer"></script><!-- endbuild -->
 <!-- build:userJs js/user.js -->
-    <script src="/js/main.js" defer="defer"></script><!-- endbuild -->
-  </body>
+  <script src="/js/main.js" defer="defer"></script><!-- endbuild -->
 </html>

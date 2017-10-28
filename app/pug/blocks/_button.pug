@@ -1,3 +1,11 @@
-mixin button(text, link)
-	a(href= link).button 
-		= text
+mixin button(text, desc, link, inHeader)
+	div
+		if inHeader
+			a(href= link).button.in-header
+				= text
+		else
+			a(href= link).button
+				= text
+		
+		div.button-description
+			= desc
