@@ -1,0 +1,7 @@
+mixin blog-post-preview(title, img)
+	article.blog-post-preview
+		img(src= img).blog-post-preview__img
+		h4.blog-post-preview__title
+			= title
+		a(href= link).blog-post-preview__link 
+			| Читать

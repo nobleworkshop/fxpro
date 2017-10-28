@@ -1,0 +1,22 @@
+{
+  "name": "gulp-start",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Yurij <info@rightblog.ru>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/WebCademy/start-template",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-grid": "^3.3.6-beta.1",
+    "jquery": "^3.2.1"
+  }
+}
