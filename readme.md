@@ -1,33 +1,26 @@
-# Gulp сборка для ДЗ
+# Test assignment
 
-Данный стартовый шаблон имеет gulp задачи для компиляции less, scss и jade файлов.
-Изначально настроен на работу с less. Но также есть написанные scss gulp task.
-Если вы пишите на scss поменяйте less на scss в задаче default и watch.
+Description will come later...
 
-### Как выполнять ДЗ
+### Technologies was used to accomplish  this task
 
-1. Сделайте fork данного проекта. Убедитесь что он ваш. В названии будут указаны ваши инициалы.
-2. Таким образом у каждого будет свой проект.
-3. Клонируйте свой форк к себе локально, сделайте изменения, и сделайте git push в свой репозиторий (у себя в аккаунте), откуда вы его клонировали
-4. На github сайте сделайте New pull request (кнопка на странице с вашим репозиторием) и отправьте свои изменения, снаблив их комментариями что вы сделали в ДЗ.
-5. Получив ваш реквест я смогу его комментировать, и проверить работу.
+- git
+- github
+- gulp
+- npm
+- bower
+- html5
+- css3
+- less
+- photoshop, optimized graphics, svg where it is possible
+- mobile-first approach
+- flex boxes
+- bootstrap grid
 
-### Как запустить проект
-
-Установить npm пакеты:
+### How to run this project
 
 ```
 npm i
-```
-
-Установить bower пакеты:
-
-```
 bower i
-```
-
-Запустить сборку:
-
-```
 gulp
 ```
