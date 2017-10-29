@@ -1,11 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="60" height="52" viewBox="0 0 60 52">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #f41112;
-        fill-rule: evenodd;
-      }
-    </style>
-  </defs>
-  <path id="icon-signals.svg" class="cls-1" d="M658,1432c-0.06-.07-6.112-8-15-8H625.5c-6.968,0-10.5-4.21-10.5-12.5s3.532-12.5,10.5-12.5H643c8.944,0,14.94-7.93,15-8l3.052,3.26c-0.289.36-7.225,8.74-18.052,8.74H625.5c-4.617,0-6.5,2.46-6.5,8.5s1.883,8.5,6.5,8.5H643c10.827,0,17.763,8.38,18.052,8.74Zm4,0h-4v-41h4v41Zm0-12v-4a4,4,0,0,0,0-8v-4A8,8,0,0,1,662,1420Zm-44.5-1a7.5,7.5,0,0,1,0-15v4a3.5,3.5,0,0,0,0,7v4Zm25.228,24H629.534l-6.441-20.4,3.814-1.2,5.559,17.6h4.8l-5.178-16.4,3.814-1.2ZM654,1424h-4v-18l4-2v20Z" transform="translate(-610 -1391)"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 60 52" style="enable-background:new 0 0 60 52;" xml:space="preserve">
+<style type="text/css">
+	.st0{enable-background:new    ;}
+	.st1{fill:#F41112;}
+</style>
+<g id="Фон_xA0_Image_1_">
+</g>
+<g id="icon-signals.svg_1_" class="st0">
+	<g id="icon-signals.svg">
+		<g>
+			<path class="st1" d="M52,13V0h-4c-0.1,0.1-6.1,8-15,8H15.5C11.1,8,8,9.7,6.4,13.1C2.8,13.6,0,16.7,0,20.5s2.8,6.9,6.4,7.4
+				c1.4,2.8,3.7,4.5,7.1,4.9l6,19.1h13.2l-6-19H33c8.9,0,14.9,7.9,15,8h4V29c4.4,0,8-3.6,8-8C60,16.6,56.4,13,52,13z M4,20.5
+				c0-1,0.4-1.9,1.1-2.6C5,18.7,5,19.6,5,20.5s0,1.8,0.1,2.6C4.4,22.4,4,21.5,4,20.5z M27.3,48h-4.8l-4.7-15h4.8L27.3,48z M44,32V13
+				l-4,2v15.2c-2.1-0.7-4.4-1.2-7-1.2H15.5C10.9,29,9,26.5,9,20.5c0-6,1.9-8.5,6.5-8.5H33c6.7,0,11.9-3.2,15-5.8v28.5
+				C46.9,33.9,45.6,32.9,44,32z M52,25v-8c2.2,0,4,1.8,4,4C56,23.2,54.2,25,52,25z"/>
+		</g>
+	</g>
+</g>
 </svg>

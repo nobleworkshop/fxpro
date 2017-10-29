@@ -1,11 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="60" height="46" viewBox="0 0 60 46">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #828286;
-        fill-rule: evenodd;
-      }
-    </style>
-  </defs>
-  <path id="icon-mt4.svg" class="cls-1" d="M707,2087l2,6,2-6h2l1,9h-2l-0.5-4.5L710,2096h-2l-1.5-4.5L706,2096h-2l1-9h2Zm11,0h2v2h-2v7h-2v-7h-2v-2h4Zm7,0-3.1,7H724v-2l2-2v4h1v2h-1v3h-2v-3h-5l4-9h2Zm21,23H686v-34h60v34Zm-56-4h52v-26H690v26Zm28,14h-4v-13h4v13Zm-19,2v-4h33v4H699Z" transform="translate(-686 -2076)"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="icon-mt4.svg_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 60 46" style="enable-background:new 0 0 60 46;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#828286;}
+</style>
+<g id="icon-mt4.svg">
+	<g>
+		<path class="st0" d="M25,11l-2,6l-2-6h-2l-1,9h2l0.5-4.5L22,20h2l1.5-4.5L26,20h2l-1-9H25z M34,11h-6v2h2v7h2v-7h2V11z M40,14
+			l-2,2v2h-2.1l3.1-7h-2l-4,9h5v3h2v-3h1v-2h-1V14z M60,34V0H0v34h28v8H13v4h33v-4H32v-8H60z M4,30V4h52v26H4z"/>
+	</g>
+</g>
 </svg>

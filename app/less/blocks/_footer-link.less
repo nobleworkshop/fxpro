@@ -1,0 +1,52 @@
+.footer-link {
+	display: inline-block;
+	align-items: center;
+	text-decoration: none;
+	
+	&:hover .footer-link__text {
+		color: #ed1c24;
+	}
+}
+
+.footer-link__icon {
+	display: inline-block;
+	vertical-align: middle;
+	
+	margin-right: 20px;
+	width: 35px;
+	height: 30px;
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: contain;
+	     -o-background-size: contain;
+	        background-size: contain;
+	
+	&--map {
+		background-image: url("../img/icons/icon-pin.svg");
+	} 
+
+	&--help {
+		background-image: url("../img/icons/icon-help.svg");
+	} 
+
+	&--news {
+		background-image: url("../img/icons/icon-newspaper.svg");
+	}
+} 
+
+.footer-link__text {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 14px;
+	font-weight: 500;
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+	
+	.transition;
+	
+	&:hover {
+		color: #ed1c24;
+	}
+}

@@ -1,11 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="60" height="46" viewBox="0 0 60 46">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #828286;
-        fill-rule: evenodd;
-      }
-    </style>
-  </defs>
-  <path id="icon-ct.svg" class="cls-1" d="M750,2696H690v-34h60v34Zm-56-4h52v-26H694v26Zm28,14h-4v-13h4v13Zm-19,2v-4h33v4H703Zm28.016-33.45h-5.7L723.247,2686h-3.884l2.072-11.45h-4.662V2672h14.243v2.55Zm-12.948,5.09h-2.589c-0.907,0-2.072,1.52-2.59,2.54s0.388,1.27,1.295,1.27h2.589L716,2686h-2.59a3.641,3.641,0,0,1-3.108-5.09,5.463,5.463,0,0,1,5.18-3.82h3.366Z" transform="translate(-690 -2662)"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="icon-ct.svg_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 60 46" style="enable-background:new 0 0 60 46;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#828286;}
+</style>
+<g id="icon-ct.svg">
+	<g>
+		<path class="st0" d="M60,34V0H0v34h28v8H13v4h33v-4H32v-8H60z M4,30V4h52v26H4z M20.3,18.9c-1,2.4,0.8,5.1,3.1,5.1
+			c2.3,0,2.6,0,2.6,0l0.8-2.5c0,0-1.6,0-2.6,0c-0.9,0-1.8-0.3-1.3-1.3c0.5-1,1.7-2.5,2.6-2.5c0.9,0,2.6,0,2.6,0l0.8-2.5h-3.4
+			C23.1,15.1,21.2,16.5,20.3,18.9z M26.8,12.5h4.7L29.4,24h3.9l2.1-11.5H41V10H26.8V12.5z"/>
+	</g>
+</g>
 </svg>

@@ -1,11 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="30" height="28" viewBox="0 0 30 28">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #606a70;
-        fill-rule: evenodd;
-      }
-    </style>
-  </defs>
-  <path id="icon-newspaper.svg" class="cls-1" d="M996,4902h1v28h-1v-28Zm-23,0h1v28h-1v-28Zm0,0h24v1H973v-1Zm-6,27h30v1H967v-1Zm0-24h1v25h-1v-25Zm3,0h1v22h-1v-22Zm7,1h16v2H977v-2Zm0,5h4v1h-4v-1Zm0,2h4v1h-4v-1Zm0,2h4v1h-4v-1Zm0,2h4v1h-4v-1Zm0,4h16v1H977v-1Zm0,2h16v1H977v-1Zm0,2h16v1H977v-1Zm11-10h1v3h-1v-3Zm2-1h1v4h-1v-4Zm2-3h1v7h-1v-7Zm-8,5h1v2h-1v-2Zm2-3h1v5h-1v-5Z" transform="translate(-967 -4902)"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="icon-newspaper.svg_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 30 28" style="enable-background:new 0 0 30 28;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#606A70;}
+</style>
+<g id="icon-newspaper.svg">
+	<g>
+		<path class="st0" d="M30,0L30,0L6,0v27H1V3H0v24h0v1h0v0h1v0h28v0h1L30,0L30,0z M29,27H7V1h22V27z M4,3H3v22h1V3z M26,4H10v2h16V4
+			z M14,9h-4v1h4V9z M14,11h-4v1h4V11z M14,13h-4v1h4V13z M14,15h-4v1h4V15z M26,19H10v1h16V19z M26,21H10v1h16V21z M26,23H10v1h16
+			V23z M22,16v-3h-1v3H22z M24,16v-4h-1v4H24z M25,16h1V9h-1V16z M18,16v-2h-1v2H18z M20,16v-5h-1v5H20z"/>
+	</g>
+</g>
 </svg>

@@ -1,11 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="60" height="46" viewBox="0 0 60 46">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #828286;
-        fill-rule: evenodd;
-      }
-    </style>
-  </defs>
-  <path id="icon-markets.svg" class="cls-1" d="M1230,2696h-60v-34h60v34Zm-56-4h52v-26h-52v26Zm28,14h-4v-13h4v13Zm-19,2v-4h33v4h-33Zm8-20-2-1.52,13.62-17.48v10.77l6.38-8.49v14.82h-2.5v-7.22l-6.38,8.49v-11.15Z" transform="translate(-1170 -2662)"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="icon-markets.svg_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 60 46" style="enable-background:new 0 0 60 46;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#828286;}
+</style>
+<g id="icon-markets.svg">
+	<g>
+		<path class="st0" d="M60,34V0H0v34h28v8H13v4h33v-4H32v-8H60z M4,30V4h52v26H4z M32.6,7L19,24.5l2,1.5l9.1-11.8v11.1l6.4-8.5v7.2
+			H39V9.3l-6.4,8.5V7z"/>
+	</g>
+</g>
 </svg>

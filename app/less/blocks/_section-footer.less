@@ -1,0 +1,133 @@
+.section-footer {
+	padding-top: 45px;
+	padding-bottom: 308px;
+	background-color: #efefef;
+	
+	font-size: 12px;
+	line-height: 1.5;
+	font-weight: 500;
+	color: #474D52;
+	
+	p {
+		margin-top: 0;
+		margin-bottom: 18px;
+		text-align: justify;
+		
+		a {
+			color: #2988ca;
+			border-bottom: 1px solid #ed1c24;
+			text-decoration: none;
+			
+			.transition;
+			
+			&:hover {
+				color: #ed1c24;
+			}
+		}
+	}
+
+} 
+
+.copyright {
+	font-weight: 500;
+	color: #606A70;
+	font-size: 12px;
+	line-height: 1.5;
+	margin-bottom: 35px;
+}
+
+ul.footer-links {
+	list-style-type: none;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	
+	li {
+		margin-bottom: 8px;
+	}
+
+	a {
+		text-decoration: underline;
+		color: #000;
+		.transition;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+.footer-title {
+	font-weight: 500;
+
+	position: relative;
+	color: #000;
+	font-size: 16px;
+	text-align: center;
+	
+	margin-top: 12px;
+	margin-bottom: 15px;
+} 
+
+.footer-title::before {
+	display: block;
+	position: absolute;
+	top: 11px;
+	left: 0;
+	width: 100%;
+	content: "";
+	border-top: 1px solid #d2d7d8;
+	z-index: 1;
+}
+
+.footer-title span {
+	background-color: #efefef;
+	z-index: 2;
+	position: relative;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid #d2d7d8;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.flag {
+	padding-left: 30px;
+	background-repeat: no-repeat;
+	background-position: top left;
+} 
+
+.flag--gb {
+	background-image: url("../img/icons/icon-flag-gb.png");
+} 
+
+.flag--cy {
+	background-image: url("../img/icons/icon-flag-cy.png");
+} 
+
+
+.risk-warning {
+	display: inline-block;
+	margin-right: 5px;
+}
+.risk-warning__icon {
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	margin-right: 8px;
+	background-image: url("../img/icons/icon-warning.svg");
+	background-repeat: no-repeat;
+	background-position: top left;
+	vertical-align: middle;
+}
+
+.risk-warning__text {
+	color: #29A643;
+	border-bottom: 1px solid #ed1c24;
+	vertical-align: top;
+}

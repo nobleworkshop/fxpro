@@ -1,7 +1,7 @@
-mixin icon-text(icon, title, desc)
+mixin icon-text(icon, width, title, desc)
 	div.icon-text.text-center
 		.icon-text__icon
-			img(src= icon, alt= title)
+			img(src= icon, alt= title width= width)
 		.icon-text__title
 			= title
 		.icon-text__desc
