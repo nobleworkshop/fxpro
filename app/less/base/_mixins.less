@@ -5,3 +5,45 @@
 	     -o-transition: all 0.2s ease-in-out;
 	        transition: all 0.2s ease-in-out;
 }
+
+// @mixin responsive($maxWidth) {
+//     @media only screen and (max-width: $maxWidth) {
+//         @content;
+//     }
+// }
+
+// usage:
+// @include responsive(450px) {
+// 	float: left;
+// 	margin-top: 10px;
+// }
+
+// mixin desktop() {
+// 	@media only screen and (max-width: @desktop-width) {
+// 		@content;
+// 	}
+// }
+
+// usage:
+// @include desktop() {
+// 	float: left;
+// 	margin-top: 10px;
+// }
+
+.iphone6(@rules) {
+  @media screen and (min-width: @iphone6-width) { @rules(); }
+}
+
+
+.desktop(@rules) {
+  @media screen and (min-width: @desktop-width) { @rules(); }
+}
+
+// // Usage:
+// header {
+//   background-color: blue;
+
+//   .desktop({
+//     background-color: red;
+//   });
+// }

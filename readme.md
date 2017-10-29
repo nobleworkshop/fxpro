@@ -23,7 +23,7 @@ Description will come later...
 
 - [ ] Fix BG in header on laptops, tablets, mobiles
 - [ ] LESS variables
-- [ ] Bootstrap4 with grid utulities (need offset class)
+- [ ] Bootstrap4 with grid utilities (need offset class)
 - [ ] fix column width on desktop with offset
 - [ ] SEO optomize - html5 tags, headings
 - [x] Create better SVG icons
