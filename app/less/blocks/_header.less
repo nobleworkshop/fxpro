@@ -3,18 +3,35 @@
 	background-color: #EFEFEF;
 	padding-bottom: 75px;
 	
+	background-image: url("../img/bg/bg-ipad--mobile.png");
+	background-repeat: no-repeat;
+	background-position: center 420px;
+	
 	.desktop({
 		padding-top: 75px;
 		padding-bottom: 100px;
-		background-image: url("../img/bg/bg-ipad-pro.png");
+		background-image: url("../img/bg/bg-ipad-pro.jpg");
 		background-repeat: no-repeat;
-		background-position: left bottom;
+		background-position: -450px bottom;
+		
+		@media (min-width: 1300px){
+			background-position: -300px bottom;
+		}
+
+		@media (min-width: 1600px){
+			background-position: -170px bottom;
+		}
+		
+		@media (min-width: 1900px){
+			background-position: left bottom;
+		}
 	});
 }
 
 .title-margin {
 	margin-top: 75px;
-	margin-bottom: 60px;
+	// margin-bottom: 60px;
+	margin-bottom: 480px;
 	
 	.desktop({
 		margin-top: 110px;
@@ -23,15 +40,20 @@
 }
 
 .header__img-ipad {
-	display: block;
+	display: none;
 	height: 365px;
 	width: 100%;
 	
+	margin-left: -10px;
+	margin-right: -10px;
+	position: relative;
+	z-index: 1;
+	
 	margin-bottom: 60px;
 	
-	background-image: url("../img/bg/bg-ipad--mobile.png");
-	background-repeat: no-repeat;
-	background-position: center center;
+	// background-image: url("../img/bg/bg-ipad--mobile.png");
+	// background-repeat: no-repeat;
+	// background-position: center center;
 	// -webkit-background-size: 100% 100%;
 	//      -o-background-size: 100% 100%;
 	//         background-size: 100% 100%;

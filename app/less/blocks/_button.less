@@ -2,15 +2,17 @@
 	display: inline-block;
 	margin-bottom: 10px;
 
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-top: 34px;
+	// padding-left: 50px;
+	// padding-right: 50px;
+	padding-top: 27px;
 	padding-bottom: 30px;
+	
+	width: 300px;
 	
 	background-color: @brand-blue;
 	
 	color: #FFF;
-	font-size: 22px;
+	font-size: 18px;
 	text-align: center;
 	text-decoration: none;
 	
@@ -19,10 +21,21 @@
 	
 	.transition;
 	
+	.iphone6({
+		font-size: 22px;
+		width: 320px;
+	});
+	
 	&.in-header {
-		font-size: 26px;
-		padding-left: 55px;
-		padding-right: 55px;
+		font-size: 24px;
+		// padding-left: 55px;
+		// padding-right: 55px;
+		padding-top: 20px;
+		padding-bottom: 27px;
+		
+		.iphone6({
+			font-size: 26px;
+		});
 	}
 
 	&:hover {
