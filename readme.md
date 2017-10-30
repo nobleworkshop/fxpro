@@ -8,16 +8,16 @@ Description will come later...
 - github
 - gulp
 - npm
-- bower
-- html5
-- css3
-- less
+- Bower
+- HTML5
+- CSS3
+- LESS
+- PUG
 - photoshop, optimized graphics, svg where it is possible
 - mobile-first approach
 - flex boxes
 - bootstrap grid
 - BEM naming
-- LESS, pug, js LINT?
 
 ### ToDo
 
@@ -26,15 +26,16 @@ Description will come later...
 - [x] LESS variables
 - [x] Bootstrap4 with grid utilities (need offset class)
 - [x] fix column width on desktop with offset
-- [ ] SEO optomize - html5 tags, headings
+- [x] SEO optimize - html5 tags, headings
 - [x] Create better SVG icons
 - [x] Mobile optimization
-- [ ] separate footer for sections in less
 - [x] hover effect for links buttons and others
 - [x] all transition in one mixin
 - [x] check design on tablet width
+- [x] add a little animation on start
+- [x] IE9 warning - unsupported browser
+- [ ] separate footer for sections in less
 - [ ] make preloader
-- [ ] IE9 warning - unsupported browser
 
 ### How to run this project
 
