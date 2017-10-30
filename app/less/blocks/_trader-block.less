@@ -3,6 +3,19 @@
 	-webkit-justify-content: space-between;
 	        justify-content: space-between;
 	margin-bottom: 50px;
+	
+	&:last-child {
+		margin-bottom: 65px;
+	}
+
+	.desktop({
+		margin-bottom: 50px;
+		
+		&:last-child {
+			margin-bottom: 60px;
+		}
+	});
+	
 }
 
 .trader-block__text
@@ -26,6 +39,17 @@
 	-webkit-flex-grow: 0;
 	        flex-grow: 0;
 	flex-basis: 130px;
-	padding-right: 15px;
+	
+	padding-left: 8.33333%;
+	padding-right: 0;
+	
+	.iphone6 ({
+		// padding-left: 8.33333%;
+		// padding-right: 8.33333%;
+	});
+	
+	.desktop ({
+		padding-right: 15px;
+	});
 	
 } 

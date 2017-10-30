@@ -25,6 +25,18 @@
 	margin-bottom: 75px;
 }
 
+.mb-75--sm {
+	margin-bottom: 75px;
+	.desktop({ margin-bottom: 0; })
+}
+
+.mb-75--xs {
+	margin-bottom: 75px;
+	@media (min-width: 576px){
+		margin-bottom: 0;
+	}
+}
+
 .color-black {
 	color: #000;
 }

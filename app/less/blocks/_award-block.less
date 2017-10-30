@@ -1,11 +1,19 @@
 .award-block {
 	text-align: center;
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-align-items: center;
+	        align-items: center;
 }
 
 .award-block__title {
 	width: 201px;
 	
-	margin-bottom: 26px;
+	margin-bottom: 20px;
 
 	padding-left: 15px;
 	padding-right: 15px;
@@ -20,6 +28,10 @@
 	background-image: url("../img/img/award.png");
 	background-repeat: no-repeat;
 	background-position: center;
+	
+	.desktop({
+		margin-bottom: 26px;
+	});
 }
 
 .award-block__desc {

@@ -21,6 +21,7 @@ Description will come later...
 
 ### ToDo
 
+- [x] Place text notice in number block - on bottom
 - [ ] Fix BG in header on laptops, tablets, mobiles
 - [ ] LESS variables
 - [ ] Bootstrap4 with grid utilities (need offset class)
@@ -32,6 +33,7 @@ Description will come later...
 - [ ] hover effect for lins buttons and others
 - [ ] make preloader
 - [ ] all transition in one mixin
+- [ ] check design on tablet width
 
 ### How to run this project
 

@@ -1,11 +1,21 @@
 .footer-link {
-	display: inline-block;
+	display: block;
 	align-items: center;
 	text-decoration: none;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	
 	&:hover .footer-link__text {
 		color: @brand-red;
 	}
+
+	.desktop({
+		display: inline-block;
+		text-align: left;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	});
 }
 
 .footer-link__icon {

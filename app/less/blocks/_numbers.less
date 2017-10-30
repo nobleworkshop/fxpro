@@ -1,8 +1,13 @@
 .numbers-section {
 	background-color: @brand-blue;
-	padding-top: 130px;
-	padding-bottom: 60px;
+	padding-top: 85px;
+	padding-bottom: 75px;
 	color: #FFF;
+	
+	.desktop({
+		padding-top: 130px;
+		padding-bottom: 60px;
+	});
 }
 
 .numbers-section__title {
@@ -10,4 +15,20 @@
 	font-size: 22px;
 	color: #FFF;
 	margin-bottom: 75px;
+	
+	&.numbers-section__title--special-pt {
+		padding-top: 20px;
+		
+		@media (min-width: 768px){
+			padding-top: 0px;
+		}
+		
+		.desktop({
+			padding-top: 0px;
+		});
+	}
+}
+
+.text-notice {
+	font-size: 14px;
 }

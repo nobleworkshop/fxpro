@@ -1,12 +1,17 @@
 .section-apps {
-	padding-top: 291px;
-	padding-bottom: 50px;
+	padding-top: 133px;
+	padding-bottom: 75px;
 	position: relative;
+	
+	.desktop({
+		padding-top: 291px;
+		padding-bottom: 50px;
+	})
 }
 
 .section-apps::before {
 	content: "";
-	background-image: url("../img/img/image-iphone.png");
+	background-image: url("../img/img/img-iphone--mobile.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	-webkit-background-size: contain;
@@ -15,21 +20,34 @@
 	display: block;
 	position: absolute;
 	left: 0;
-	top: -114px;
+	top: -42px;
 	width: 100%;
-	height: 379px;
+	height: 139px;
+	
+	@media (min-width: 480px){
+		background-image: url("../img/img/img-iphone--mobile-shadow.png");
+	}
+	
+	.desktop({
+		top: -114px;
+		height: 379px;
+		background-image: url("../img/img/image-iphone.png");
+	})
+	
 }
 
 .section-apps--black {
 	background-color: #23262B;
-	padding-top: 128px;
-	padding-bottom: 560px;
+	padding-top: 90px;
+	padding-bottom: 490px;
 
-	background-image: url("../img/bg/bg-imac.jpg");
+	background-image: url("../img/bg/bg-imac--mobile.jpg");
 	background-repeat: no-repeat;
 	background-position: bottom center;
-	// -webkit-background-size: contain;
-	//      -o-background-size: contain;
-	//         background-size: contain;
-	        // background-size: 100%;
+	        
+	.desktop({
+		padding-top: 128px;
+		padding-bottom: 560px;	
+		background-image: url("../img/bg/bg-imac.jpg");
+	})
 }

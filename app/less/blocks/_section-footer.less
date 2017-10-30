@@ -1,7 +1,17 @@
+@footer-bg-mobile: #fff ;
+@footer-bg-desktop: #efefef;
+@line-color: #d2d7d8;
+
 .section-footer {
-	padding-top: 45px;
-	padding-bottom: 308px;
-	background-color: #efefef;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	background-color: @footer-bg-mobile;
+	
+	.desktop({
+		padding-top: 45px;
+		padding-bottom: 308px;
+		background-color: @footer-bg-desktop;
+	});
 	
 	font-size: 12px;
 	line-height: 1.5;
@@ -34,6 +44,11 @@
 	font-size: 12px;
 	line-height: 1.5;
 	margin-bottom: 35px;
+	text-align: center;
+	
+	.desktop({
+		text-align: left;
+	});
 }
 
 ul.footer-links {
@@ -43,6 +58,13 @@ ul.footer-links {
 	line-height: 1.5;
 	margin: 0;
 	padding: 0;
+	text-align: center;
+	margin-bottom: 30px;
+	
+	.desktop({
+		text-align: left;
+		margin-bottom: 0;
+	});
 	
 	li {
 		margin-bottom: 8px;
@@ -77,21 +99,25 @@ ul.footer-links {
 	left: 0;
 	width: 100%;
 	content: "";
-	border-top: 1px solid #d2d7d8;
+	border-top: 1px solid @line-color;
 	z-index: 1;
 }
 
 .footer-title span {
-	background-color: #efefef;
+	background-color: @footer-bg-mobile;
 	z-index: 2;
 	position: relative;
 	padding-left: 20px;
 	padding-right: 20px;
+	
+	.desktop({
+		background-color: @footer-bg-desktop;
+	});
 }
 
 hr {
 	border: none;
-	border-top: 1px solid #d2d7d8;
+	border-top: 1px solid @line-color;
 	margin-top: 20px;
 	margin-bottom: 30px;
 }
