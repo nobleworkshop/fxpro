@@ -1,5 +1,8 @@
 extends ./templates/_template.pug
 
+block variables
+	- var title = 'FxPro'
+
 block content
 	include sections/header.pug
 	include sections/numbers.pug
