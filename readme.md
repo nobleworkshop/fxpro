@@ -22,18 +22,19 @@ Description will come later...
 ### ToDo
 
 - [x] Place text notice in number block - on bottom
-- [ ] Fix BG in header on laptops, tablets, mobiles
-- [ ] LESS variables
-- [ ] Bootstrap4 with grid utilities (need offset class)
-- [ ] fix column width on desktop with offset
+- [x] Fix BG in header on laptops, tablets, mobiles
+- [x] LESS variables
+- [x] Bootstrap4 with grid utilities (need offset class)
+- [x] fix column width on desktop with offset
 - [ ] SEO optomize - html5 tags, headings
 - [x] Create better SVG icons
-- [ ] Mobile optimization
-- [ ] separate foler for sections in less
-- [ ] hover effect for lins buttons and others
+- [x] Mobile optimization
+- [ ] separate footer for sections in less
+- [x] hover effect for links buttons and others
+- [x] all transition in one mixin
+- [x] check design on tablet width
 - [ ] make preloader
-- [ ] all transition in one mixin
-- [ ] check design on tablet width
+- [ ] IE9 warning - unsupported browser
 
 ### How to run this project
 
