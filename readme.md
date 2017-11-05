@@ -5,7 +5,6 @@ Description will come later...
 ### Technologies was used to accomplish  this task
 
 - git
-- github
 - gulp
 - npm
 - Bower
@@ -44,3 +43,5 @@ npm i
 bower i
 gulp
 ```
+
+To create production version use `gulp dist`

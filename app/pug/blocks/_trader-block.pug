@@ -1,9 +1,13 @@
-mixin trader-block(name, desc, value)
+mixin trader-block(name, desc, value, specialMark)
 	div.trader-block
 		.trader-block__text
 			.trader-block__header
 				= name
 			.trader-block__description
 				= desc
-		.trader-block__value
-			= value
+		if specialMark
+			.trader-block__value.trader-block__value--special
+				= value
+		else
+			.trader-block__value
+				= value
