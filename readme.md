@@ -1,6 +1,12 @@
 # Test assignment
 
-Description will come later...
+Test assignment at FX Pro. HTML layout by design.    
+
+[**Check online version**](https://nobleworkshop.github.io/fxpro/)    
+
+Design preview:     
+[Desktop design](https://nobleworkshop.github.io/fxpro/design/fxpro-desktop.jpg)    
+[Mobile design](https://nobleworkshop.github.io/fxpro/design/fxpro-mobile.jpg)
 
 ### Technologies was used to accomplish  this task
 
@@ -17,24 +23,6 @@ Description will come later...
 - flex boxes
 - bootstrap grid
 - BEM naming
-
-### ToDo
-
-- [x] Place text notice in number block - on bottom
-- [x] Fix BG in header on laptops, tablets, mobiles
-- [x] LESS variables
-- [x] Bootstrap4 with grid utilities (need offset class)
-- [x] fix column width on desktop with offset
-- [x] SEO optimize - html5 tags, headings
-- [x] Create better SVG icons
-- [x] Mobile optimization
-- [x] hover effect for links buttons and others
-- [x] all transition in one mixin
-- [x] check design on tablet width
-- [x] add a little animation on start
-- [x] IE9 warning - unsupported browser
-- [ ] separate footer for sections in less
-- [ ] make preloader
 
 ### How to run this project
 
