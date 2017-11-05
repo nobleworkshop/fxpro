@@ -1,6 +1,6 @@
-# Test assignment
+# FxPro test assignment
 
-Test assignment at FX Pro. HTML layout by design.    
+Test assignment at FxPro. HTML layout by design.    
 
 [**Check online version**](https://nobleworkshop.github.io/fxpro/)    
 
